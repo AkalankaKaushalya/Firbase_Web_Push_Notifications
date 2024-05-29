@@ -19,14 +19,14 @@
         // Firebase configuration
         // For Firebase JS SDK v7.20.0 and later, measurementId is optional
         const firebaseConfig = {
-          apiKey: "AIzaSyCgHUckyiJJ5j4veZtMKwTgxe1zRioiJaQ",
-          authDomain: "unitycodes-6cb70.firebaseapp.com",
-          databaseURL: "https://unitycodes-6cb70-default-rtdb.firebaseio.com",
-          projectId: "unitycodes-6cb70",
-          storageBucket: "unitycodes-6cb70.appspot.com",
-          messagingSenderId: "634847251234",
-          appId: "1:634847251234:web:0758f197b0a3de532e737b",
-          measurementId: "G-V24PKP0RLV"
+            apiKey: "xxxxxxxxxxxxx",
+            authDomain: "unitycodes-xxxxx.firebaseapp.com",
+            databaseURL: "https://unitycodes-xxxxx-default-rtdb.firebaseio.com",
+            projectId: "unitycodes-xxxxx",
+            storageBucket: "unitycodes-xxxx.appspot.com",
+            messagingSenderId: "xxxxxxxxxxxxx",
+            appId: "1:xxxxxxxxxxxxx:web:xxxxxxxxxxxxx",
+            measurementId: "x-xxxxxxxxxxx"
         };
 
         // Initialize Firebase
@@ -35,7 +35,7 @@
 
 
         //Get the device token
-        messaging.getToken({ vapidKey: "BIVyqy3-F88n55runVlCyJOIg3rSPt0blFmsWUfnO6r2R6VmbL7MCNffxAyrPJJhSPjFmO_YUa26TvQaOCOv3Uw" })
+        messaging.getToken({ vapidKey: "BIVyqy3-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx" })
             .then((currentToken) => {
                 if (currentToken) {
                     console.log('Device token:', currentToken);

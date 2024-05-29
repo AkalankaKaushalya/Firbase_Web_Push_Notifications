@@ -2,7 +2,7 @@
 
 $url = "https://fcm.googleapis.com/fcm/send";
 
-$server_key = "AAAAk8_YSyI:APA91bFD_O68oO4S3nHZyINl5-wyTYScaPrxAGfFS22Iv_3a5WhUsTuwKdkxmvJOmPdL8tNen6bWxTXWvhOKIAXJcKnCA5gYyNbzyiyxygLa8kloMgXrrlMJ1vNIw7LXszncGx7-IKjx";
+$server_key = "AAAAk8_xxxxxxxxxxx";
 
 $message = array(
     "data" => array(
@@ -15,8 +15,8 @@ $message = array(
     ),
     /*Array of device tokens*/
     "registration_ids" => [
-        "fi2X0ri2nM1Ss0slchIPH9:APA91bGCTDCZkhXt5SXBpEKnJG5hz_LUmTfQ-zxURfQl03pcslga-JbMS2HwJ9ptODdl7Zoi5jthu5XtY0F_Jb2jaibWErSO_rFpj9LvAyl228GHCwQ_QUFLBJFIlcnXl4gJWl1mI3WT",
-        "cTQl7950RKt0YcOkU2Jlhq:APA91bFqsLOd0Rx8Fujdv75RHKhu0RSZ6pxz4qopuqeO_dyUYghTT7j5xp4tRoQgr-_EmoUQRl2OCte2Qa9gIr8DVpKCBbSiY3rJyI7sH9-SEjHmlU1XCIxXC6YMzNgaBTzPLmapdge3"
+        "xxxT",
+        "xxx"
     ],
 );
 

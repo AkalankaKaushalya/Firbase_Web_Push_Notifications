@@ -5,14 +5,14 @@ importScripts('https://www.gstatic.com/firebasejs/9.19.1/firebase-app-compat.js'
 importScripts('https://www.gstatic.com/firebasejs/9.19.1/firebase-messaging-compat.js');
 
 const firebaseConfig = {
-    apiKey: "AIzaSyCgHUckyiJJ5j4veZtMKwTgxe1zRioiJaQ",
-    authDomain: "unitycodes-6cb70.firebaseapp.com",
-    databaseURL: "https://unitycodes-6cb70-default-rtdb.firebaseio.com",
-    projectId: "unitycodes-6cb70",
-    storageBucket: "unitycodes-6cb70.appspot.com",
-    messagingSenderId: "634847251234",
-    appId: "1:634847251234:web:0758f197b0a3de532e737b",
-    measurementId: "G-V24PKP0RLV"
+    apiKey: "xxxxxxxxxxxxx",
+    authDomain: "unitycodes-xxxxx.firebaseapp.com",
+    databaseURL: "https://unitycodes-xxxxx-default-rtdb.firebaseio.com",
+    projectId: "unitycodes-xxxxx",
+    storageBucket: "unitycodes-xxxx.appspot.com",
+    messagingSenderId: "xxxxxxxxxxxxx",
+    appId: "1:xxxxxxxxxxxxx:web:xxxxxxxxxxxxx",
+    measurementId: "x-xxxxxxxxxxx"
 };
 
 firebase.initializeApp(firebaseConfig);
